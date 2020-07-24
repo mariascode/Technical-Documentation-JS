@@ -1,0 +1,93 @@
+.headline{
+  text-align: center;
+  color:#F46036;
+  font-size: 2vm;
+}
+
+.header{
+  font-size: 3vmax;
+}
+
+.mainheader{
+padding-left: 35vw;
+  font-size: 4vmax;
+  padding-bottom: 4vw;
+}
+body{
+  background-color: #C9CFD6;
+  color: #011627;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.text{
+  font-size: 1vmax;
+}
+
+nav{
+  height: 100%;
+  width: 20vw; 
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1B2A41 ; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+nav a{
+  padding:6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #0582CA;
+  display: block;  
+}
+
+nav a:hover{
+  color: #F46036;
+  font-size: 1.5vw;
+}
+
+nav li{
+  list-style-type: none;
+}
+
+section{
+  margin-left: 22vw;
+  padding-top: 3vw;
+
+}
+
+code{
+  background-color: #0582CA;
+  font-size: 1.2;
+  padding-bottom: 0.5vw;
+  padding-left:0.5vw;
+  padding-right:0.5vw;
+  padding-top:0.5vw;
+}
+
+ul{padding-top: 0.5vw;
+padding-bottom: 0.5vw;}
+
+
+@media only screen and (max-width: 601px) {
+  section {
+    font-size: 80px;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1B2A41; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #F46036; 
+}
+
+}
